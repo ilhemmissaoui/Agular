@@ -1,0 +1,27 @@
+<app-nav></app-nav>
+<div class="main">
+    <p>Search:</p>
+    <div class="col-md-5">
+      <input class="form-control" id="myInput" type="text" placeholder="Search..">
+    </div>
+     <div class="col-md-6 col-sm-12">
+        <div class="login-form">
+            <h2>choose the line you are in:</h2>
+            <p>select the line of the train you are waiting for:</p>
+            <div class="form-group">
+                <label for="sel1">line:</label>
+                <select class="form-control" id="sel1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select> <br>    
+           </div>
+        </div>
+     </div>
+  </div>
+  <agm-map [latitude]="lat" [longitude]="lng"></agm-map>
+
+  <app-footer></app-footer>
